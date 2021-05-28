@@ -1,0 +1,38 @@
+# site settings
+title: Menghe Jing
+subtitle: 井梦鹤
+email: menghejing7@gmail.com
+description: A.K.A. Samantha. A Christian singer-songwriter, beauty-blogger from China based in Los Angeles.     来自中国的唱作歌手、美妆博主A.K.A. Samantha现居美国洛杉矶。
+baseurl: "" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  Instagram: https://www.instagram.com/jingmenghe/
+  # LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+  Twitter: https://twitter.com/jingmenghe
+  Facebook: https://www.facebook.com/profile.php?id=100031714897704
+  YouTube: https://www.youtube.com/channel/UCZeHqYVx_tXMvdTRvf3Ctnw
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
+
+destination: ../docs

@@ -1,0 +1,17 @@
+// Custom styles here
+video {
+  width: 75%;
+}
+
+.tiles article.music:before {
+    background-color: #94ba82 !important;
+}
+
+.tiles article.beauty header {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.tiles article h3 {
+  text-transform: uppercase;
+}
